@@ -1,0 +1,59 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.flex-box{
+    display: flex;
+    padding-bottom: 10%;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img{
+    width: 80%;
+    padding-left: 5%;
+}
+
+h1 {
+    font-size: 300%;
+    color: rgb(80, 78, 78);
+}
+h2{
+    font-size: 200%;
+    color: rgb(80, 78, 78);
+}
+
+p {
+    color: rgb(107, 106, 106);
+    padding-bottom: 5%;
+    padding-right: 5%;
+}
+.span-blue{
+    color: rgb(4, 115, 226);
+}
+a{
+    background-image: linear-gradient(to right, rgb(183, 183, 219), rgb(59, 116, 221));
+    padding: 15px 30px;
+    border-radius: 30px;
+    color: floralwhite;
+    font-size: 80%;
+
+}
+#second-section{
+    background-image: url(images/Frame\ 57.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+#second-section-text{
+    padding-top: 15%;
+    padding-left: 15%;
+}
+#second-section-img{
+    width: 32%;
+    padding-top: 7%;
+}
