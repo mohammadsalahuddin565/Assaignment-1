@@ -1,14 +1,36 @@
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0px;
+    }
+nav{
+    width: 100%;
+    height: 75%;
+    background-color: rgb(17, 17, 56);
+    display: inline-block;
 }
+nav .logo{
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
 
+}
+nav ul{
+    float: right;
+    
+}
+nav ul li{
+    display: inline-block; 
+    margin: 0px;
+    padding: 0px;
+}
 
 .flex-box{
     display: flex;
     padding-bottom: 5%;
 }
-
+#first-section{
+    padding-top: 5%;
+}
 .half-width{
     width: 50%;
     padding-left: 5%;
@@ -77,3 +99,60 @@ div.flex-box{
 #third-section .Our-recepies{
     text-align: center;
 }
+#fourth-section .flex-box{
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 7%;
+    background-color: #fdfdfd;
+    border-radius: 20px;
+    box-shadow: 5px 5px 30px rgb(204, 203, 203) ;
+
+}
+
+#fourth-section >.flex-box >.half-width{
+    width: 70%;
+    text-align: center;
+    text-indent: 5px;
+}
+#fifth-section >.flex-box >.half-width{
+    width: 100%;
+    text-align: center;
+    text-indent: 5px;
+}
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    width: 25%;
+    background-color: #6584db;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #569dc7;
+  }
+  #fifth-section {
+    background-color: #b9d7e6;
+    padding: 20px;
+    p
+  }
+  
+.footer{
+    width: 100%;
+    text-align: center; 
+}
+footer{
+        background-color: #0a051a;
+        padding: 50px;
+    }
