@@ -1,11 +1,12 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 
 .flex-box{
     display: flex;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 
 .half-width{
@@ -15,7 +16,6 @@ body{
 
 .half-width img{
     width: 80%;
-    padding-left: 5%;
 }
 
 h1 {
@@ -24,14 +24,15 @@ h1 {
 }
 h2{
     font-size: 200%;
-    color: rgb(80, 78, 78);
+    color: rgb(68, 67, 67);    
 }
 
 p {
     color: rgb(107, 106, 106);
-    padding-bottom: 5%;
     padding-right: 5%;
+    padding-bottom: 2%;
 }
+
 .span-blue{
     color: rgb(4, 115, 226);
 }
@@ -55,5 +56,24 @@ a{
 }
 #second-section-img{
     width: 32%;
-    padding-top: 7%;
+    padding-top: 8%;
+}
+div.flex-box{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#third-section >.flex-box >.half-width{
+    background-color: #fdfdfd;
+    border-radius: 20px;
+    box-shadow: 5px 5px 30px rgb(204, 203, 203) ;
+    margin: 2.5%;
+    padding: 10px;
+
+}
+
+#third-section >.flex-box >.half-width img{
+    width: 100%;
+}
+#third-section .Our-recepies{
+    text-align: center;
 }
