@@ -30,13 +30,13 @@ h2{
 p {
     color: rgb(107, 106, 106);
     padding-right: 5%;
-    padding-bottom: 2%;
 }
 
 .span-blue{
-    color: rgb(4, 115, 226);
+    color: rgb(102, 161, 219);
 }
 a{
+    text-decoration: none;
     background-image: linear-gradient(to right, rgb(183, 183, 219), rgb(59, 116, 221));
     padding: 15px 30px;
     border-radius: 30px;
